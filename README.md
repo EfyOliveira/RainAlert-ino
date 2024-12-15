@@ -64,7 +64,8 @@ RX → Pino TX (11) no Arduino
 
 Código Arduino
 
-```bash #include <SoftwareSerial.h>
+```bash
+#include <SoftwareSerial.h>
 
 // Configuração da comunicação serial com o SIM800L
 SoftwareSerial SIM800L(10, 11); // RX no pino 10, TX no pino 11
