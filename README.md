@@ -94,7 +94,7 @@ void loop() {
 
   if (valorSensor < 500) { // Ajuste o valor conforme a sensibilidade desejada
     Serial.println("Chuva detectada!");
-    enviarSMS("+5512996719209", "Alerta: Chuva detectada!");
+    enviarSMS("+XXXXXXXXXXXXX", "Alerta: Chuva detectada!");
     delay(30000); // Aguarda 30 segundos antes de enviar outra notificação
   }
   delay(1000); // Aguarda antes de realizar a próxima leitura
