@@ -139,7 +139,7 @@ O sensor detecta a presença de água e envia um sinal para o Arduino.
 
 O Arduino processa o sinal e aciona o módulo SIM800L.
 
-O SIM800L envia uma mensagem SMS para o número +55 12 99671-9209 com o alerta de chuva.
+O SIM800L envia uma mensagem SMS para o número +XX XX XXXXX-XXXX com o alerta de chuva.
 
 
 
